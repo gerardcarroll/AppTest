@@ -22,7 +22,9 @@ $(document).ready(function() {
 	/*$(function(){
 		setTimeout(getVenueList,3000);
 	});*/
-	getVenueList();
+	
+	
+	/*getVenueList();
 	
 	function getVenueList(){
 		
@@ -31,7 +33,7 @@ $(document).ready(function() {
 			textVisible: true,
 			theme: 'a',
 			html: ""
-		});
+		});*/
 		
 		
 		$.getJSON(apiUrl + 'venue/')
@@ -45,7 +47,9 @@ $(document).ready(function() {
 					$('#venueview').listview('refresh');								
                 });    				          
 			});
-	}
+	//}
+	
+	
 /*
 	//When a venue is selected	
 		$("#venueview").on('click', 'li', function() {     
