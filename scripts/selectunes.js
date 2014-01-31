@@ -19,9 +19,10 @@ $(document).ready(function() {
 		$.mobile.changePage("#page", "fade");
 	}*/
 	
-	$(function(){
+	/*$(function(){
 		setTimeout(getVenueList,3000);
-	});
+	});*/
+	getVenueList();
 	
 	function getVenueList(){
 		
