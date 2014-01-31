@@ -3,17 +3,17 @@
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.example"
-        version     = "1.1.0"
+        version     = "1.0.0"
         versionCode = "10" >
 
         <!-- versionCode is optional and Android only -->
 
         <preference name="phonegap-version" value="3.1.0" />
 
-        <name>SelecTunes</name>
+        <name>App Test</name>
 
         <description>
-        Listen to the music you want. 
+        Test App for SelecTunes. 
         </description>
 
         <author href="http://yoursite.com" email="you@youremail.com">
