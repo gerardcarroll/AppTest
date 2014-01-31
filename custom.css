@@ -1,0 +1,30 @@
+.fullScreenDiv {
+	background-color: #CF9;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;	
+}
+
+.splash {
+	position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -75px;
+	font-weight:bolder;
+}
+
+/*@media screen and (orientation: portrait) {
+ @-ms-viewport {
+    width: 320px;
+	height: 521px;
+    user-zoom: fixed;
+    max-zoom: 1;
+    min-zoom: 1;
+ }
+}*/

@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>SelecTunes</title>
+
+<link rel="stylesheet" href="css/jquery-mobile-1.3.2.css" />
+<link rel="stylesheet" href="css/custom.css" />
+<!--<link rel="stylesheet" href="themes/SelecTunes.css" />-->
+<script src="scripts/jquery-1.9.1.js"></script>
+<script src="scripts/jquery-mobile-1.3.2.js"></script>
+<!--<script src="scripts/selectunes-min.js"></script>-->
+<script src="scripts/selectunes.js"></script>
+
+<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, usr-scalable=no">
+
+ 
+</head> 
+
+<script type="text/javascript">
+
+
+    
+</script>
+
+
+<body> 
+<!--Splash Screen-->
+	<!--<div data-role="page" id="splash">
+		<div class="splash">
+			<img src="css/images/recordlogoSmall.png" />
+		</div>
+   	</div>-->
+    
+    
+ <!--First Page-->
+    <div data-role="page" id="page">
+        <div data-role="header" style="min-height:55px" data-position="fixed">
+            <img src="css/images/recordlogoTextResize.png" alt="main logo" style="float:inherit; margin:auto; margin-top:8px " class="ui-title"/>
+            <a href="index.html" data-icon="gear" class="ui-btn-right" style="margin-top:8px"><br/></a>            
+		</div>        
+                   
+        <div data-role="content">
+            <div>
+                <ul id="venueview" data-inset="true" data-role="listview" data-filter="false">
+                    <li style="text-align:center; font-size:22px">Venues</li>
+                </ul>
+            </div>
+        </div>        		
+        
+        <div data-role="footer" data-position="fixed" data-id="myfooter" >
+            <h4>&copy; SelecTunes</h4>
+        </div>
+    </div>
+
+<!--Second Page-->
+   <!-- <div data-role="page" id="page2">
+        <div data-role="header" style="min-height:55px" data-position="fixed">
+        	<a href="index.html#page" data-icon="back" style="margin-top:8px"><br/></a>
+            <h1 id="venueName" style="margin-top:20px"></h1>
+            <a href="" data-icon="gear" class="ui-btn-right" style="margin-top:8px"><br/></a>               
+        </div>
+        
+        <div data-role="content">
+            <div>
+                <ul data-role="listview" class="ui-listview">
+                    <li id="venueInfo" class="ui-li ui-li-static ui-btn-up-c ui-li-has-thumb" style="text-align:center">
+				       	<img id="ownerImage" src="css/images/nightlife.jpg" class="ui-li-thumb">
+                        <h2 id="ownerInfo" class="ui-li-heading"></h2>
+                        <p id="ownerInstruct" class="ui-li-desc"></p>
+                    </li>                                       	
+                </ul>
+            </div>
+        </div>
+        
+        <div data-role="content">
+            <div>
+                <ul id="playing" data-inset="true" data-role="listview">
+                	<li id="playingText" style="font-size:16px">Now Playing</li>                    
+                </ul>
+            </div>
+            
+            <ul data-role="listview" data-inset="true">
+              <li data-role="collapsible" data-iconpos="right" data-inset="false">
+                <h2>Selected Tracks</h2>
+                    <ul id="nextTracks" data-role="listview" data-inset="true">
+                     	                      
+                    </ul>
+  		      </li>
+              </ul>        
+            
+            
+            <div data-position="fixed">
+            	<img id="selectTrack" class="tap" src="css/images/recordSpinnerStatic.gif" />
+            </div>
+        </div>       
+       
+        
+        <div data-role="footer" data-position="fixed" data-id="myfooter" >
+            <h4>&copy; SelecTunes</h4>
+        </div>
+    </div>-->
+    
+<!--Third Page-->
+	<!--<div data-role="page" id="page3">
+        <div data-role="header" style="min-height:55px" data-position="fixed">
+        	<a href="index.html#page2" data-icon="back" style="margin-top:8px">Back</a>
+            <h1 id="venueName2" style="margin-top:20px"></h1>
+            <a href="" data-icon="gear" class="ui-btn-right" style="margin-top:8px">Options</a>               
+        </div>
+        
+        <div data-role="content">        
+            <div data-role="controlgroup" data-type="horizontal" class="ui-grid-a">
+              	<a data-role="button" id="artists" class="artists ui-disabled" data-theme="c">Artists</a>
+                <a data-role="button" id="tracks" class="tracks" data-theme="c">Tracks</a>
+            </div>        	
+        </div>
+        
+        <div data-role="content">        	
+          	<ul id="artistView" data-inset="true" data-role="listview" data-filter=""></ul> 
+            <ul id="artistList" style="display:none" data-inset="true" data-role="listview" data-filter=""></ul>           
+            <!--<ul id="trackView" style="display:none" data-inset="true" data-role="listview" data-filter=""></ul>-->
+            <!--<ul id="listView" style="display:none" data-inset="true" data-role="listview" data-filter=""></ul>
+                      
+        </div>
+        
+        <div data-role="footer" data-position="fixed" data-id="myfooter" >
+            <h4>&copy; SelecTunes</h4>
+        </div>
+    </div>-->
+    
+
+</body>
+
+
+</html>

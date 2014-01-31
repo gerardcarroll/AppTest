@@ -1,0 +1,67 @@
+.fullScreenDiv {
+	/*background-image: url('css/images/recordlogo.png');*/
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: 100% 100%;	
+}
+
+.center{
+	margin-left: 100px;	
+}
+
+.splash {
+	position: absolute;
+    /*width: 100px;
+    height: 50px;*/
+    top: 50%;
+    left: 50%;
+    margin-top: -116px;
+    margin-left: -159px;
+	font-weight:bolder;
+}
+
+.tap {
+	position:absolute;
+	margin-left: -60px;
+	margin-bottom: 50px;
+	bottom: 10%;
+	left: 50%;	
+}
+
+.listButtons {
+	width: 100%;	
+}
+
+.artists {
+	width:49%;
+	float:left;
+	margin-left:1%
+}
+
+.tracks {
+	width:49%	
+}
+
+.ui-grid-a, .ui-grid-a .ui-controlgroup-controls {
+	width: 100%
+}
+
+
+@media screen and (orientation: portrait) {
+    @-ms-viewport {
+       width: 320px;
+	   height: 480px;
+       user-zoom: fixed;
+       max-zoom: 1;
+       min-zoom: 1;
+    }
+}
+
+@media screen and (orientation: landscape) {
+@-ms-viewport {
+    width: 480px;
+       user-zoom: fixed;
+       max-zoom: 1;
+       min-zoom: 1;
+    }
+}
